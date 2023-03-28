@@ -1,0 +1,23 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'crawmania/style.css' %}">
+
+
+
+<div class="topnav">
+    <a href="http://127.0.0.1:8000/crawmania/">Home</a>
+    <a class="active" href="http://127.0.0.1:8000/crawmania/guestlist/">Guestlist</a>
+    <a href="http://127.0.0.1:8000/crawmania/prize/">Prizes</a>
+    <a href="http://127.0.0.1:8000/crawmania/about/">About</a>
+  </div>
+
+
+<h1>Join us for crawmania</h1>
+
+<form action="addrecord/" method="post">
+{% csrf_token %}
+First Name:<br>
+<input name="name">
+<br><br>
+<input type="submit" value="Submit">
+</form>

@@ -1,0 +1,106 @@
+body {
+  font-size: 2em;
+  height: 100vh;
+    
+}
+  .sign {
+    background-color: beige;
+     padding: 10px; border: 6px solid red;
+    width: 8em;
+  }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: red;
+    color: white;
+  }
+
+
+  table{
+    background-color: beige;
+     padding: 10px; border: 6px solid red;
+  }
+
+  .guest{
+    font-family: arial, sans-serif;
+    background-color: beige;
+    padding: 10px; border: 6px solid red;
+    width: 6cm;
+  }
+
+  .image{
+    max-width: 20%;
+    height: auto;
+  }
+  img{
+    border-right: 90%;
+    max-width: 5%;
+    height: auto;
+    background-color: green;
+    padding: 10px; border: 6px solid black;
+    width: 6cm;
+    
+    
+    
+  }
+
+  .what{ background-color: beige;
+    padding: 10px; border: 6px solid red;
+   width: 22em;
+
+  }
+
+  .listitems{
+    background-color: beige;
+    padding: 10px; border: 6px solid red;
+    width: 6cm;
+    overflow: auto;
+  }
+  .pap{
+    background-color: beige;
+    padding: 25px; border: 2px solid red;
+    margin-bottom: 1em
+    
+  }
+  h4{
+    font-family: arial, sans-serif;
+    background-color: beige;
+    padding: 10px; border: 6px solid red;
+    width: 11cm;
+
+  }
+
+  ul{
+    background-color: beige;
+     padding: 10px; border: 6px solid red;
+  }
+
+  html { 
+    background: url(images/Newbackground.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }

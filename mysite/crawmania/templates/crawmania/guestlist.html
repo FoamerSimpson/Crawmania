@@ -1,0 +1,23 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'crawmania/style.css' %}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="topnav">
+    <a href="http://127.0.0.1:8000/crawmania/">Home</a>
+    <a class="active" href="http://127.0.0.1:8000/crawmania/guestlist/">Guestlist</a>
+    <a href="http://127.0.0.1:8000/crawmania/prize/">Prizes</a>
+    <a href="http://127.0.0.1:8000/crawmania/about/">About</a>
+  </div>
+  <h1><div class="guest">Guests</div></h1>
+<div class="guestlist">
+<table border="1">
+{% for x in guest %}
+<tr>
+<td>{{ x.id }}</td>
+<td>{{ x.name }}</td>
+</tr>
+{% endfor %}
+</table>
+</div>
+<div class="sign"<p>
+    <a href="join/">Sign up as a guest</a>
+</p></div>
